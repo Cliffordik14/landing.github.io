@@ -1,0 +1,337 @@
+@font-face {
+font-family: 'Proxima Nova Bold';
+src: url('ProximaNova-Bold.eot');
+src: url('ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+url('ProximaNova-Bold.woff') format('woff'),
+url('ProximaNova-Bold.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-decoration: none; 
+	color: #fff;
+	font-size: 16px;
+}
+
+body {
+	font-family: 'Proxima Nova Bold', sans-serif;
+}
+
+.container {
+	max-width: 1532px;
+	margin: 0 auto;
+}
+
+.bg-first {
+	background-image: url(../img/bg.jpg);
+	height: 100vh;
+}
+
+.logo {
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	width: 192px;
+	height: 35px;
+	display: inline-block;
+	margin-top: 55px;
+}
+
+.for__athlets {
+	text-transform: uppercase;
+	display: inline-block;
+	float: right;
+	margin-top: 50px;
+}
+
+.be__recruited-title {
+	text-transform: uppercase;
+	margin-top: 250px;
+	font-weight: bold;
+}
+
+.be-text {
+	font-size: 90px;
+	margin-left: 45px;
+	z-index: 0;
+}
+
+.play__college {
+	font-size: 90px;
+	float: right;
+	z-index: 2;
+}
+
+.line-violet {
+	height: 5px;
+	width: 400px;
+	background: #582FAA;
+	transform: rotate(-40deg);
+	margin-left: 310px;
+	margin-top: 10px;
+	
+	z-index: 1;
+}
+
+.menu {
+	text-transform: uppercase;
+	float: right;
+}
+
+.menu li {
+	display: inline-block;
+	color: #4F3A8B;
+	margin-left: 60px;
+	transition: 0.2s;
+	cursor: pointer;
+}
+
+.menu li:hover {
+	color: #fff;
+}
+
+.two-buttons {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	margin-top: 200px;
+}
+
+.app__store {
+	background: #582FAA;
+	width: 310px;
+	height: 80px;
+	border-radius: 50px;
+	position: relative;
+	cursor: pointer;
+	transition: 0.2s;
+	margin-right: 50px;
+}
+
+.app-logo {
+	width: 33px;
+	height: 37px;
+	background-image: url(../img/appstore.png);
+	margin-left: 40px;
+	line-height: 80px;
+	position: absolute;
+	margin-top: 20px;
+}
+
+.download-on-the {
+	font-size: 14px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 25px;
+}
+
+.magazine {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+	padding-left: 85px;
+}
+
+.app__store:hover {
+	background: #41237D;
+}
+
+.google__play {
+	background: #582FAA;
+	width: 310px;
+	height: 80px;
+	border-radius: 50px;
+	position: relative;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+.google-logo {
+	margin-top: 20px;
+	margin-left: 15px;
+	width: 58px;
+	height: 39px;
+	background-image: url(../img/googleplay.png);
+	position: absolute;
+}
+
+.google__play:hover {
+	background: #41237D;
+}
+
+.our-athlets {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+.athlet {
+	width: 50%;
+}
+
+.line {
+	height: 5px;
+	width: 900px;
+	background: #8C61E5;
+	position: absolute;
+	transform: rotate(-40deg);
+	margin-top: 500px;
+	margin-left: -150px;
+}
+
+.athlet-photo {
+	z-index: 1;
+	width: 640px;
+	height: 950px;
+	background-image: url(../img/footballer.png);
+	position: absolute;
+	margin-top: 45px;
+}
+
+.athlets-title {
+	font-size: 60px;
+	color: #E4E4E4;
+	text-transform: uppercase;
+	margin-top: 110px;
+}
+
+.conection {
+	margin-top: 95px;
+}
+
+.connection-number-title {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.number-01 {
+	color: #000;
+	font-size: 22px;
+}
+
+.line-01 {
+	width: 25px;
+	height: 6px;
+	background: #582FAA;
+	border-radius: 5px;
+}
+
+.connection-title {
+	color: #E4E4E4;
+	font-size: 40px;
+	text-transform: uppercase;
+	display: inline-block;
+	margin-left: 12px;
+	margin-top: -3px;
+}
+
+.connection-text {
+	font-size: 20px;
+	color: #000;
+	margin-top: 30px;
+	padding-bottom: 65px;
+}
+
+.collaboration {
+	background: #F5F2F9;
+}
+
+.collaboration-number-title {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 50%;
+	padding-top: 65px;
+}
+
+.number-02 {
+	color: #000;
+	font-size: 22px;
+}
+
+.line-02 {
+	width: 25px;
+	height: 6px;
+	background: #582FAA;
+	border-radius: 5px;
+}
+
+.collaboration-title {
+	color: #E4E4E4;
+	font-size: 40px;
+	text-transform: uppercase;
+	display: inline-block;
+	margin-left: 12px;
+	margin-top: -3px;
+}
+
+.collaboration-text {
+	font-size: 20px;
+	color: #000;
+	margin-top: 30px;
+	padding-bottom: 65px;
+	margin-left: 50%;
+}
+
+.growth {
+	background: #582FAA;
+	color: #B6B5BA;
+	text-transform: uppercase;
+}
+
+.growth-number-title {
+	margin-left: 50%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 75px;
+}
+
+.number-03 {
+	font-size: 22px;
+	color: #000;
+}
+
+.line-03 {
+	width: 25px;
+	height: 6px;
+	background: #B6B5BA;
+	border-radius: 5px;
+}
+
+.growth-title {
+	color: #E4E4E4;
+	font-size: 40px;
+	text-transform: uppercase;
+	display: inline-block;
+	margin-left: 12px;
+	margin-top: -3px;
+}
+
+.growth-text {
+	text-transform: none;
+	font-size: 20px;
+	color: #E4E4E4;
+	margin-top: 30px;
+	padding-bottom: 65px;
+	margin-left: 50%;
+}
